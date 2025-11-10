@@ -1,0 +1,11 @@
+{
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "python.pythonPath": "/home/siddharth/Documents/FastAPI_Learning/FASTAPI_Learning/Project1/.venv/bin/python",
+  "python.venvPath": "/home/siddharth/Documents/FastAPI_Learning/FASTAPI_Learning/Project1/.venv",
+  "python.pythonBinPath": "/home/siddharth/Documents/FastAPI_Learning/FASTAPI_Learning/Project1/.venv/bin",
+
+  //   Enable below line when working on windows machine as we have packages installed under 'Scripts'
+  //   "python.pythonScriptPath" : "C:\\Users\\Siddharth_Acer_Swift_3\\python_virtual_envs\\FastAPI_Learning\\Scripts\\",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.typeCheckingMode": "off"
+}

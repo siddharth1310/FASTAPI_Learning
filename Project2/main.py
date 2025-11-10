@@ -102,25 +102,25 @@ async def read_all_books(author_name : Optional[str] = Query(None, description =
         filtered_books = [book for book in filtered_books if book.author.upper() == author_name.upper()]
         
         if not filtered_books:
-            raise HTTPException(status_code = 404, detail = f"No books found for author '{author_name}'")
+            raise HTTPException(status_code = 404, detail = f"No books found for author - {author_name}")
     
     if book_title:
         filtered_books = [book for book in filtered_books if book.title.upper() == book_title.upper()]
         
         if not filtered_books:
-            raise HTTPException(status_code = 404, detail = f"No book found with title: '{book_title}'")
+            raise HTTPException(status_code = 404, detail = f"No book found with title - {book_title}")
     
     if book_rating:
         filtered_books = [book for book in filtered_books if book.rating == book_rating]
         
         if not filtered_books:
-            raise HTTPException(status_code = 404, detail = f"No book found with rating: '{book_rating}'")
+            raise HTTPException(status_code = 404, detail = f"No book found with rating - {book_rating}")
     
     if published_year:
         filtered_books = [book for book in filtered_books if book.published_year == published_year]
         
         if not filtered_books:
-            raise HTTPException(status_code = 404, detail = f"No book found with published year: '{published_year}'")
+            raise HTTPException(status_code = 404, detail = f"No book found with published year - {published_year}")
         
     if len(filtered_books) == 1:
         return filtered_books[0]
@@ -138,7 +138,7 @@ async def generate_book_title(book_title : str = Path(min_length = 3, max_length
     book_with_title = [book for book in BOOKS if book.title.upper() == book_title.upper()]
     
     if not book_with_title:
-        raise HTTPException(status_code = 404, detail = f"No book found with title '{book_title}'")
+        raise HTTPException(status_code = 404, detail = f"No book found with title - {book_title}")
     
     return book_with_title[0]
 
@@ -151,7 +151,7 @@ async def get_book_based_on_book_id(book_id : int = Path(ge = 0, description = "
     book_based_on_book_id = [book for book in BOOKS if book.id == book_id]
     
     if not book_based_on_book_id:
-        raise HTTPException(status_code = 404, detail = f"No book found with ID: '{book_id}'")
+        raise HTTPException(status_code = 404, detail = f"No book found with ID - '{book_id}'")
     
     return book_based_on_book_id[0]
 
@@ -164,7 +164,7 @@ async def generate_author_books(author_name : str = Path(min_length = 3, max_len
     author_books = [book for book in BOOKS if book.author.upper() == author_name.upper()]
     
     if not author_books:
-        raise HTTPException(status_code = 404, detail = f"No books found for author '{author_name}'")
+        raise HTTPException(status_code = 404, detail = f"No books found for author - {author_name}")
     
     if len(author_books) == 1:
         return author_books[0]
@@ -182,6 +182,9 @@ async def add_book(payload_request : Book_Request_Body):
 
 @app.put("/books/", status_code = status.HTTP_204_NO_CONTENT)
 async def update_book(payload_request : Book_Update_Request_Body):
+    if not BOOKS:
+        raise HTTPException(status_code = 404, detail = "No books present in the Database")
+    
     for idx, book in enumerate(BOOKS):
         if book.id == payload_request.id:
             BOOKS[idx] = Book(**payload_request.model_dump())
@@ -192,11 +195,14 @@ async def update_book(payload_request : Book_Update_Request_Body):
 
 @app.delete("/books/{book_id}", status_code = status.HTTP_200_OK)
 async def delete_book(book_id : int = Path(ge = 0, description = "Book ID of the book")):
+    if not BOOKS:
+        raise HTTPException(status_code = 404, detail = "No books present in the Database")
+    
     for book in BOOKS:
         if book.id == book_id:
             BOOKS.remove(book)
             return {"message" : "Book deleted successfully"}
-    raise HTTPException(status_code = 404, detail = f"No book found with ID : '{book_id}'")
+    raise HTTPException(status_code = 404, detail = f"No book found with ID - {book_id}")
 
 
 

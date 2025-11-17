@@ -1,0 +1,48 @@
+from datetime import timedelta, datetime, timezone
+from fastapi import APIRouter, HTTPException
+from app.config import ALGORITHM
+from app.models import Users
+from typing import Annotated
+from fastapi import Depends
+from starlette import status
+from fastapi.security import OAuth2PasswordRequestForm
+from jose import jwt
+from app.schemas import Token
+from dotenv import load_dotenv
+from os import environ
+from app.config import db_dependency, bcrypt_context
+
+load_dotenv()
+
+router = APIRouter(prefix = "/auth", tags = ["auth"])
+
+
+def authenticate_user(username : str, password : str, db_instance : db_dependency):
+    user = db_instance.query(Users).filter(Users.username == username).first()
+    if not user:
+        return False
+    if not bcrypt_context.verify(password, user.hashed_password):
+        return False
+    return user
+
+
+def create_access_token(username : str, user_id : int, user_role : str, expires_delta : timedelta):
+    encode = {"sub" : username, "id" : user_id, "user_role"  : user_role}
+    expires = datetime.now(timezone.utc) + expires_delta
+    encode.update({"exp" : expires})
+    return jwt.encode(claims = encode, key = environ.get("SECRET_KEY", ""), algorithm = ALGORITHM)
+
+
+@router.get("/users", status_code = status.HTTP_200_OK)
+async def get_user(db : db_dependency):
+    return db.query(Users).all()
+
+
+@router.post("/token", response_model = Token)
+async def login_for_access_token(form_data : Annotated[OAuth2PasswordRequestForm, Depends()], db : db_dependency):
+    user = authenticate_user(form_data.username, form_data.password, db)
+    if not user:
+        raise HTTPException(status_code = status.HTTP_401_UNAUTHORIZED, detail = "Could not validate user.")
+    else:
+        token = create_access_token(user.username, user.id, user.role, timedelta(minutes = 20))
+        return {"access_token" : token, "token_type" : "bearer"}

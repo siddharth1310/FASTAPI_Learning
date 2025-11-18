@@ -1,11 +1,17 @@
+# In-built packages (Standard Library modules)
+
+# External packages
+from fastapi import FastAPI
+from sqlalchemy.exc import IntegrityError
+from fastapi.exceptions import RequestValidationError
+from starlette.exceptions import HTTPException as StarletteHTTPException
+
+# Our Own Imports
 from .models import Base
 from .database import engine
 from app.routers import auth, todos, admin, users
-from fastapi import FastAPI
-from fastapi.exceptions import RequestValidationError
-from sqlalchemy.exc import IntegrityError
 from app.exceptions import http_exception_handler, validation_exception_handler, integrity_error_handler, generic_exception_handler
-from starlette.exceptions import HTTPException as StarletteHTTPException
+
 
 app = FastAPI()
 

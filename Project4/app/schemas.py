@@ -1,11 +1,38 @@
-from pydantic import BaseModel, Field
+# In-built packages (Standard Library modules)
 from typing import Optional
+
+# External packages
+from pydantic import BaseModel, Field, model_validator
+
+# Our Own Imports
+
 
 class Token(BaseModel):
     access_token : str
     token_type : str
 
-class UserRequest(BaseModel):
+
+class TodoRequest(BaseModel):
+    title : str = Field(min_length = 3)
+    description : str = Field(min_length = 3, max_length = 100)
+    priority : int = Field(gt = 0, lt = 6)
+    complete : bool
+
+
+class ChangePassword(BaseModel):
+    old_password : str
+    new_password : str
+    confirm_new_password : str
+    
+    @model_validator(mode = "after")
+    def validate_passwords(self):
+        if self.new_password != self.confirm_new_password:
+            raise ValueError("New password and confirmation password do not match.")
+        return self
+
+
+
+class User_Request_Body(BaseModel):
     email : str = Field(min_length = 3)
     username : str = Field(min_length = 3, max_length = 255)
     first_name : str = Field(min_length = 3, max_length = 255)
@@ -25,6 +52,7 @@ class UserRequest(BaseModel):
             }
         }
     }
+
 
 class User_Update_Request_Body(BaseModel):
     email : Optional[str] = Field(default = None, min_length = 3)

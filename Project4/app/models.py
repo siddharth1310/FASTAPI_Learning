@@ -1,6 +1,12 @@
-from typing_extensions import Annotated
-from sqlalchemy import Boolean, String, VARCHAR, Integer, ForeignKey
+# In-built packages (Standard Library modules)
+from typing import Annotated
+
+# External packages
 from sqlalchemy.orm import mapped_column, DeclarativeBase, Mapped
+from sqlalchemy import Boolean, String, VARCHAR, Integer, ForeignKey
+
+# Our Own Imports
+
 
 int_pk = Annotated[int, mapped_column(Integer, primary_key = True, index = True)]
 

@@ -1,15 +1,19 @@
-from datetime import timedelta, datetime, timezone
-from fastapi import APIRouter, HTTPException
-from app.config import ALGORITHM
-from app.models import Users
-from typing import Annotated
-from fastapi import Depends
-from starlette import status
-from fastapi.security import OAuth2PasswordRequestForm
-from jose import jwt
-from app.schemas import Token
-from dotenv import load_dotenv
+# In-built packages (Standard Library modules)
 from os import environ
+from typing import Annotated
+from dotenv import load_dotenv
+from datetime import timedelta, datetime, timezone
+
+# External packages
+from jose import jwt
+from starlette import status
+from fastapi import APIRouter, Depends, HTTPException
+from fastapi.security import OAuth2PasswordRequestForm
+
+# Our Own Imports
+from app.models import Users
+from app.schemas import Token
+from app.config import ALGORITHM
 from app.config import db_dependency, bcrypt_context
 
 load_dotenv()

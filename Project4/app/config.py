@@ -1,14 +1,19 @@
+# In-built packages (Standard Library modules)
+from os import environ
 from typing import Annotated
-from fastapi import Depends
-from app.database import SessionLocal
+
+# External packages
+from starlette import status
+from dotenv import load_dotenv
+from jose import jwt, JWTError
 from sqlalchemy.orm import Session
 from passlib.context import CryptContext
+from fastapi import Depends, HTTPException
 from fastapi.security import OAuth2PasswordBearer
-from jose import jwt, JWTError
-from dotenv import load_dotenv
-from os import environ
-from starlette import status
-from fastapi import HTTPException
+
+# Our Own Imports
+from app.database import SessionLocal
+
 
 load_dotenv()
 
@@ -21,6 +26,7 @@ def get_db():
         yield db
     finally:
         db.close()
+
 db_dependency = Annotated[Session, Depends(get_db)]
 
 #----------------------------------------------USER DEPENDENCY CREATION-------------------------------------------------------#

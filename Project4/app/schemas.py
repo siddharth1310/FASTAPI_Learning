@@ -39,6 +39,7 @@ class User_Request_Body(BaseModel):
     last_name : str = Field(min_length = 3, max_length = 255)
     password : str
     role : str
+    phone_number : str
     
     model_config = {
         "json_schema_extra" : {
@@ -48,7 +49,8 @@ class User_Request_Body(BaseModel):
                 "first_name" : "Siddharth",
                 "last_name" : "Singh",
                 "password" : "Sid1310@",
-                "role" : "Admin"
+                "role" : "Admin",
+                "phone_number" : "1234567890"
             }
         }
     }
@@ -60,6 +62,7 @@ class User_Update_Request_Body(BaseModel):
     first_name : Optional[str] = Field(default = None, min_length = 3, max_length = 255)
     last_name : Optional[str] = Field(default = None, min_length = 3, max_length = 255)
     role : Optional[str] = Field(default = None, min_length = 3, max_length = 255)
+    phone_number : Optional[str] = Field(default = None, max_length = 10)
     
     model_config = {
         "json_schema_extra" : {
@@ -68,7 +71,8 @@ class User_Update_Request_Body(BaseModel):
                 "username" : "Wolverine13101999",
                 "first_name" : "Siddharth",
                 "last_name" : "Singh",
-                "role" : "admin"
+                "role" : "admin",
+                "phone_number" : "1234567890"
             }
         }
     }

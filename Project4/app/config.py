@@ -36,7 +36,7 @@ ALGORITHM = "HS256"
 
 async def get_current_user(token : Annotated[str, Depends(oauth2_bearer)]):
     try:
-        payload = jwt.decode(token = token, key = environ.get("SECRET_KEY", ""), algorithms = [ALGORITHM])
+        payload = jwt.decode(token = token, key = environ.get("SECRET_KEY", ""), algorithms = ALGORITHM)
         
         username : str = payload.get("sub")
         user_id : int = payload.get("id")

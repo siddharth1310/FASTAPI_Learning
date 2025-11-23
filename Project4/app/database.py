@@ -8,6 +8,8 @@ from sqlalchemy import create_engine, URL
 
 # Our Own Imports
 
+
+# Load environment variables from .env file
 load_dotenv()
 
 
@@ -28,7 +30,7 @@ url = URL.create(drivername = environ.get("POSTGRES_DRIVER", ""),
                  host = environ.get("POSTGRES_DATABASE_HOST", ""), 
                  database = environ.get("POSTGRES_DATABASE", ""), 
                  port = environ.get("POSTGRES_DATABASE_PORT_NO", ""), 
-                 query = {"options" : f"-c search_path={environ.get("POSTGRES_SCHEMA", "")}"}
+                 query = {"options" : f"-c search_path={environ.get("POSTGRES_SCHEMA_PROD", "")}"}
                  ).render_as_string(hide_password = False)
 
 engine = create_engine(url)

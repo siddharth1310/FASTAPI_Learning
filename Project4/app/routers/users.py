@@ -7,8 +7,8 @@ from fastapi import APIRouter, HTTPException, Path
 # Our Own Imports
 from app.models import Users
 from app.routers.auth import authenticate_user
-from app.schemas import ChangePassword, User_Update_Request_Body, User_Request_Body
 from app.config import db_dependency, bcrypt_context, user_dependency
+from app.schemas import ChangePassword, User_Update_Request_Body, User_Request_Body
 
 
 router = APIRouter(prefix = "/users", tags = ["users"])
@@ -36,7 +36,7 @@ async def get_current_user_details(user : user_dependency, db : db_dependency):
     if user is None:
         raise HTTPException(status_code = status.HTTP_401_UNAUTHORIZED, detail = "Authentication Failed")
     
-    return db.query(Users).filter(Users.id == user.get("id")).first()
+    return db.get(Users, user.get("id"))
 
 
 @router.post("/change_password", status_code = status.HTTP_200_OK)
@@ -53,7 +53,7 @@ async def change_password(user : user_dependency, db : db_dependency, change_pas
             user.hashed_password = bcrypt_context.hash(change_password_payload.confirm_new_password)
             db.add(user)
             db.commit()
-            return {"message" : "Password updated successfully."}
+            return {"message" : "Password updated successfully.", "id" : user.id}
         else:
             raise HTTPException(status_code = status.HTTP_400_BAD_REQUEST, detail = "New passwords do not match.")
 
@@ -72,7 +72,7 @@ async def update_user(user : user_dependency,
         raise HTTPException(status_code = status.HTTP_401_UNAUTHORIZED, detail = "Access Denied. You can only make changes to your user account.")
     
     # 3. Fetch user
-    user_obj = db.query(Users).filter(Users.id == user_id).first()
+    user_obj = db.get(Users, user_id)
     if not user_obj:
         raise HTTPException(status_code = status.HTTP_404_NOT_FOUND, detail = "User Not Found.")
     
@@ -82,5 +82,6 @@ async def update_user(user : user_dependency,
         setattr(user_obj, field, value)
     
     db.commit()
+    db.refresh(user_obj)  # IMPORTANT → loads the assigned ID
     
-    return {"message" : "User details updated successfully"}
+    return {"message" : "User details updated successfully", "id" : user_obj.id}

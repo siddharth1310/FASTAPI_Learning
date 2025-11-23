@@ -31,7 +31,6 @@ class ChangePassword(BaseModel):
         return self
 
 
-
 class User_Request_Body(BaseModel):
     email : str = Field(min_length = 3)
     username : str = Field(min_length = 3, max_length = 255)

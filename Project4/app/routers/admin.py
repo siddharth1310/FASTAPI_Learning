@@ -2,6 +2,7 @@
 
 # External packages
 from starlette import status
+from sqlalchemy.exc import IntegrityError
 from fastapi import HTTPException, Path, APIRouter
 
 # Our Own Imports
@@ -37,12 +38,17 @@ async def create_user(user : user_dependency, db : db_dependency, user_request :
                               last_name = user_request.last_name, 
                               hashed_password = bcrypt_context.hash(user_request.password), 
                               is_active = True, 
-                              role = user_request.role)
+                              role = user_request.role, 
+                              phone_number = user_request.phone_number)
     
-    db.add(user_model_object)
-    db.commit()
-    
-    return {"message" : "User created successfully"}
+    try:
+        db.add(user_model_object)
+        db.commit()
+        db.refresh(user_model_object)
+        return {"message" : "User created successfully", "id" : user_model_object.id}
+    except IntegrityError as e:
+        db.rollback()
+        raise e  
 
 
 @router.put("/user/{user_id}", status_code = status.HTTP_200_OK)
@@ -59,7 +65,7 @@ async def update_user(user : user_dependency,
         raise HTTPException(status_code = status.HTTP_401_UNAUTHORIZED, detail = "Access Denied - Admin Privilege Required")
     
     # Fetch user
-    user_model_object = db.query(Users).filter(Users.id == user_id).first()
+    user_model_object = db.get(Users, user_id)
     
     if not user_model_object:
         raise HTTPException(status_code = status.HTTP_404_NOT_FOUND, detail = "User Not Found.")
@@ -70,10 +76,12 @@ async def update_user(user : user_dependency,
         setattr(user_model_object, field, value)
     
     db.commit()
-    return {"message" : "User details updated successfully"}
+    db.refresh(user_model_object)
+    
+    return {"message" : "User details updated successfully", "id" : user_model_object.id}
 
 
-@router.post("/user/{user_id}", status_code = status.HTTP_200_OK)
+@router.delete("/user/{user_id}", status_code = status.HTTP_200_OK)
 async def delete_user(user : user_dependency, 
                       db : db_dependency, 
                       user_id : int = Path(gt = 0, description = "User ID that has to be deleted.")):
@@ -86,11 +94,11 @@ async def delete_user(user : user_dependency,
         raise HTTPException(status_code = status.HTTP_401_UNAUTHORIZED, detail = "Access Denied - Admin Privilege Required")
     
     # Fetch user
-    user_model_object = db.query(Users).filter(Users.id ==user_id).first()
+    user_model_object = db.get(Users, user_id)
     
     if user_model_object is not None:
         db.query(Users).filter(Users.id == user_id).delete()
         db.commit()
-        return {"message" : "User details deleted successfully"}
+        return {"message" : "User details deleted successfully", "id" : user_model_object.id}
     else:
         raise HTTPException(status_code = status.HTTP_404_NOT_FOUND, detail = "User ID Not Found")

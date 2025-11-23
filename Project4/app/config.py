@@ -15,6 +15,7 @@ from fastapi.security import OAuth2PasswordBearer
 from app.database import SessionLocal
 
 
+# Load environment variables from .env file
 load_dotenv()
 
 bcrypt_context = CryptContext(schemes = ["argon2"])

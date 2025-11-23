@@ -31,7 +31,7 @@ async def read_todo(user : user_dependency,
     if user is None:
         raise HTTPException(status_code = status.HTTP_401_UNAUTHORIZED, detail = "Authentication Failed")
     
-    todo = db.query(Todos).filter(Todos.id == todo_id).first()
+    todo = db.get(Todos, todo_id)
     if not todo:
         raise HTTPException(status_code = status.HTTP_404_NOT_FOUND, detail = "Todo Not Found.")
     
@@ -46,12 +46,14 @@ async def create_todo(user : user_dependency, db : db_dependency, todo_request :
     if user is None:
         raise HTTPException(status_code = status.HTTP_401_UNAUTHORIZED, detail = "Authentication Failed")
     
-    todo_model = Todos(**todo_request.model_dump(), owner_id = user.get("id"))
+    todo = Todos(**todo_request.model_dump(), owner_id = user.get("id"))
     
-    db.add(todo_model)
+    db.add(todo)
     db.commit()
     
-    return {"message" : "Todo item created successfully"}
+    db.refresh(todo)  # IMPORTANT → loads the assigned ID
+    
+    return {"message" : "Todo item created successfully", "id" : todo.id}
 
 
 @router.put("/update_todo/{todo_id}", status_code = status.HTTP_200_OK)
@@ -62,7 +64,7 @@ async def update_todo(user : user_dependency,
     if user is None:
         raise HTTPException(status_code = status.HTTP_401_UNAUTHORIZED, detail = "Authentication Failed")
     
-    todo = db.query(Todos).filter(Todos.id == todo_id).first()
+    todo = db.get(Todos, todo_id)
     
     if not todo:
         raise HTTPException(status_code = status.HTTP_404_NOT_FOUND, detail = "Todo Not Found.")
@@ -75,7 +77,9 @@ async def update_todo(user : user_dependency,
     
     db.commit()
     
-    return {"message" : "Todo item details updated successfully"}
+    db.refresh(todo)  # IMPORTANT → loads the assigned ID
+    
+    return {"message" : "Todo item details updated successfully", "id" : todo.id}
 
 
 @router.delete("/delete_todo/{todo_id}", status_code = status.HTTP_200_OK)
@@ -85,7 +89,7 @@ async def delete_todo(user : user_dependency,
     if user is None:
         raise HTTPException(status_code = status.HTTP_401_UNAUTHORIZED, detail = "Authentication Failed")
     
-    todo = db.query(Todos).filter(Todos.id == todo_id).first()
+    todo = db.get(Todos, todo_id)
     
     if not todo:
         raise HTTPException(status_code = status.HTTP_404_NOT_FOUND, detail = "Todo Not Found.")
@@ -98,4 +102,4 @@ async def delete_todo(user : user_dependency,
     db.delete(todo)
     db.commit()
     
-    return {"message" : "Todo deleted successfully"}
+    return {"message" : "Todo deleted successfully", "id" : todo.id}

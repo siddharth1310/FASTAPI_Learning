@@ -16,6 +16,7 @@ from app.schemas import Token
 from app.config import ALGORITHM
 from app.config import db_dependency, bcrypt_context
 
+# Load environment variables from .env file
 load_dotenv()
 
 router = APIRouter(prefix = "/auth", tags = ["auth"])

@@ -1,0 +1,115 @@
+{"asctime": "2025-11-24 22:03:22", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 22, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:04:06", "levelname": "ERROR", "module": "exceptions", "filename": "exceptions.py", "funcName": "integrity_error_handler", "lineno": 51, "message": "IntegrityError : duplicate key value violates unique constraint \"users_email_key\"\nDETAIL:  Key (email)=(siddharth13101999singh@gmail.com) already exists.\n"}
+{"asctime": "2025-11-24 22:05:39", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 22, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:07:42", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 27, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:07:51", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 22, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:18:28", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 22, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:18:32", "levelname": "ERROR", "module": "exceptions", "filename": "exceptions.py", "funcName": "integrity_error_handler", "lineno": 88, "message": "IntegrityError : duplicate key value violates unique constraint \"users_email_key\"\nDETAIL:  Key (email)=(siddharth13101999singh@gmail.com) already exists.\n"}
+{"asctime": "2025-11-24 22:20:09", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 27, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:20:11", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 24, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:20:37", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 29, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:20:39", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:20:46", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:20:48", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:21:08", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:21:10", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:21:16", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:21:18", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:21:20", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:21:23", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:21:34", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:21:36", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:21:37", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:21:39", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:21:49", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:21:52", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:21:53", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:21:56", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:22:23", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:22:24", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:22:54", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:25:01", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:25:13", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:25:15", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:25:18", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:25:25", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:25:28", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:25:30", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:25:32", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:29:11", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:29:14", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:29:16", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:29:33", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:29:35", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:30:09", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:30:11", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:32:10", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:32:12", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:32:13", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:32:16", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:32:20", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:32:22", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:32:25", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:32:27", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:32:39", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:32:41", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:32:58", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:33:15", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-24 22:33:15", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-24 22:33:15", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Could not validate user."}
+{"asctime": "2025-11-24 22:33:36", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-24 22:33:36", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-24 22:37:42", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : User Not Found."}
+{"asctime": "2025-11-24 22:37:43", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : User ID Not Found"}
+{"asctime": "2025-11-24 22:37:44", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-24 22:37:44", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=1608, role=admin"}
+{"asctime": "2025-11-24 22:37:44", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-24 22:37:44", "levelname": "WARNING", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 93, "message": "Token decoded but missing critical fields (username/id)"}
+{"asctime": "2025-11-24 22:37:44", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Todo Not Found."}
+{"asctime": "2025-11-24 22:37:44", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Todo Not Found."}
+{"asctime": "2025-11-24 22:37:44", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Todo Not Found."}
+{"asctime": "2025-11-24 22:37:57", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : User Not Found."}
+{"asctime": "2025-11-24 22:37:57", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : User ID Not Found"}
+{"asctime": "2025-11-24 22:37:58", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-24 22:37:58", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=1633, role=admin"}
+{"asctime": "2025-11-24 22:37:58", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-24 22:37:58", "levelname": "WARNING", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 93, "message": "Token decoded but missing critical fields (username/id)"}
+{"asctime": "2025-11-24 22:37:58", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Todo Not Found."}
+{"asctime": "2025-11-24 22:37:59", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Todo Not Found."}
+{"asctime": "2025-11-24 22:37:59", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Todo Not Found."}
+{"asctime": "2025-11-24 22:38:52", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : User Not Found."}
+{"asctime": "2025-11-24 22:38:53", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : User ID Not Found"}
+{"asctime": "2025-11-24 22:38:54", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-24 22:38:54", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=1658, role=admin"}
+{"asctime": "2025-11-24 22:38:54", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-24 22:38:54", "levelname": "WARNING", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 93, "message": "Token decoded but missing critical fields (username/id)"}
+{"asctime": "2025-11-24 22:38:54", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Todo Not Found."}
+{"asctime": "2025-11-24 22:38:54", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Todo Not Found."}
+{"asctime": "2025-11-24 22:38:54", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Todo Not Found."}
+{"asctime": "2025-11-24 22:42:06", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : User Not Found."}
+{"asctime": "2025-11-24 22:42:06", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : User ID Not Found"}
+{"asctime": "2025-11-24 22:42:06", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-24 22:42:06", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=1683, role=admin"}
+{"asctime": "2025-11-24 22:42:07", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-24 22:42:07", "levelname": "WARNING", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 93, "message": "Token decoded but missing critical fields (username/id)"}
+{"asctime": "2025-11-24 22:42:07", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Todo Not Found."}
+{"asctime": "2025-11-24 22:42:07", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Todo Not Found."}
+{"asctime": "2025-11-24 22:42:07", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Todo Not Found."}
+{"asctime": "2025-11-24 22:43:45", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : User Not Found."}
+{"asctime": "2025-11-24 22:43:46", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : User ID Not Found"}
+{"asctime": "2025-11-24 22:43:47", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-24 22:43:47", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=1708, role=admin"}
+{"asctime": "2025-11-24 22:43:47", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-24 22:43:47", "levelname": "WARNING", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 93, "message": "Token decoded but missing critical fields (username/id)"}
+{"asctime": "2025-11-24 22:43:48", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Todo Not Found."}
+{"asctime": "2025-11-24 22:43:48", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Todo Not Found."}
+{"asctime": "2025-11-24 22:43:48", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Todo Not Found."}
+{"asctime": "2025-11-24 22:45:13", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : User Not Found."}
+{"asctime": "2025-11-24 22:45:14", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : User ID Not Found"}
+{"asctime": "2025-11-24 22:45:16", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-24 22:45:16", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=1733, role=admin"}
+{"asctime": "2025-11-24 22:45:16", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-24 22:45:16", "levelname": "WARNING", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 93, "message": "Token decoded but missing critical fields (username/id)"}
+{"asctime": "2025-11-24 22:45:16", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Todo Not Found."}
+{"asctime": "2025-11-24 22:45:16", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Todo Not Found."}
+{"asctime": "2025-11-24 22:45:16", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Todo Not Found."}

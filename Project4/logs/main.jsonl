@@ -1,0 +1,54 @@
+{"asctime": "2025-11-24 22:03:22", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 22, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:05:39", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 22, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:07:42", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 27, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:07:51", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 22, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:18:28", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 22, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:20:09", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 27, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:20:11", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 24, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:20:37", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 29, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:20:39", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:20:46", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:20:48", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:21:08", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:21:10", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:21:16", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:21:18", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:21:20", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:21:23", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:21:34", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:21:36", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:21:37", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:21:39", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:21:49", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:21:52", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:21:53", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:21:56", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:22:23", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:22:24", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:22:54", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:25:01", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:25:13", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:25:15", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:25:18", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:25:25", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:25:28", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:25:30", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:25:32", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:29:11", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:29:14", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:29:16", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:29:33", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:29:35", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:30:09", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:30:11", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:32:10", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:32:12", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:32:13", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:32:16", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:32:20", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:32:22", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:32:25", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:32:27", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:32:39", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 45, "message": "FastAPI application is shutting down"}
+{"asctime": "2025-11-24 22:32:41", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}
+{"asctime": "2025-11-24 22:32:58", "levelname": "INFO", "module": "main", "filename": "main.py", "funcName": "lifespan", "lineno": 39, "message": "FastAPI application has started"}

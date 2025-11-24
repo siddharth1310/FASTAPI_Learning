@@ -1,0 +1,48 @@
+{
+  "version" : "2.0.0", 
+  "tasks" : [
+    {
+      // ⭐ Traditional non-UV FastAPI
+      "label": "Run FastAPI (uvicorn)",
+      "type": "shell",
+      "command": "${config:python.pythonPath}",
+      "args": [
+        "-m",        "uvicorn",   "main:app",  "--host",    "127.0.0.1",
+        "--port",    "8001",      "--reload"
+      ],
+      "group": {"kind": "build"},
+      "problemMatcher": []
+    },
+    {
+      // ⭐ New FastAPI task using uv
+      "label": "Run FastAPI (uv)",
+      "type": "shell",
+      "command": "uv",
+      "args": [
+        "run",         "fastapi",     "run",         "app/main.py",
+        "--host",      "127.0.0.1",   "--port",      "8001",
+        "--reload"
+      ],
+      "group": {"kind": "build"},
+      "problemMatcher": []
+    },
+    {
+      // ⭐  Traditional non-UV Pytest
+      "label": "Run Unit Test (pytest)",
+      "type": "shell",
+      "command": "${config:python.pythonPath}",
+      "args": ["-m",     "pytest",     "-v"],
+      "group": {"kind": "build"},
+      "problemMatcher": []
+    },
+    {
+      // ⭐ New Pytest (uv)
+      "label": "Run Unit Test (uv)",
+      "type": "shell",
+      "command": "uv",
+      "args": ["run",         "pytest",     "-v"],
+      "group": {"kind": "build"},
+      "problemMatcher": []
+    }
+  ]
+}

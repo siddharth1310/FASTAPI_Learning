@@ -209,3 +209,9 @@ This is where you configure:
 #### ✔ Never manually edit previous migrations unless absolutely necessary
 
 Create new migrations instead.
+
+## FASTAPI Commands
+
+With Package Manager - UV
+
+fastapi run app/main.py --reload --host 127.0.0.1 --port 8080

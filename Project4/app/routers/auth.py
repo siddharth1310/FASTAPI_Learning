@@ -7,8 +7,9 @@ from datetime import timedelta, datetime, timezone
 # External packages
 from jose import jwt
 from starlette import status
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi.templating import Jinja2Templates
 from fastapi.security import OAuth2PasswordRequestForm
+from fastapi import APIRouter, Depends, HTTPException, Request
 
 # Our Own Imports
 from app.models import Users
@@ -51,3 +52,13 @@ async def login_for_access_token(form_data : Annotated[OAuth2PasswordRequestForm
     else:
         token = create_access_token(user.username, user.id, user.role, timedelta(minutes = 20))
         return {"access_token" : token, "token_type" : "bearer"}
+
+templates = Jinja2Templates(directory = "templates")
+
+@router.get("/login-page")
+def render_login_page(request : Request):
+    return templates.TemplateResponse("login.html", {"request" : request})
+
+@router.get("/register-page")
+def render_register_page(request : Request):
+    return templates.TemplateResponse("register.html", {"request" : request})

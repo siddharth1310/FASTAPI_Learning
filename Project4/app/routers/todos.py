@@ -3,12 +3,14 @@
 # External packages
 from starlette import status
 from fastapi import  APIRouter
-from fastapi import HTTPException, Path
+from fastapi.templating import Jinja2Templates
+from fastapi.responses import RedirectResponse
+from fastapi import HTTPException, Path, Request
 
 # Our Own Imports
 from app.models import Todos
-from app.config import user_dependency, db_dependency
 from app.schemas import TodoRequest
+from app.config import get_current_user, user_dependency, db_dependency
 
 router = APIRouter(prefix = "/todo", tags = ["todo"])
 
@@ -103,3 +105,28 @@ async def delete_todo(user : user_dependency,
     db.commit()
     
     return {"message" : "Todo deleted successfully", "id" : todo.id}
+
+templates = Jinja2Templates(directory = "templates")
+
+
+def redirect_to_login():
+    redirect_response = RedirectResponse(url = "/auth/login-page", status_code = status.HTTP_302_FOUND)
+    redirect_response.delete_cookie(key = "access_token")
+    return redirect_response
+
+
+@router.get("/todo-page")
+async def render_todo_page(request : Request, db : db_dependency):
+    try:
+        user = await get_current_user(request.cookies.get("access_token"))
+        if user is None:
+            return redirect_to_login()
+        todos = db.query(Todos).filter(Todos.owner_id == user.get("id")).all()
+        return templates.TemplateResponse("todo.html", {"request" : request, "todos" : todos, "user" : user})
+    except Exception as e:
+        return redirect_to_login()
+
+
+@router.get("/register-page")
+async def render_register_page(request : Request):
+    return templates.TemplateResponse("register.html", {"request" : request})

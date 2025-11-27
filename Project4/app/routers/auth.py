@@ -56,9 +56,9 @@ async def login_for_access_token(form_data : Annotated[OAuth2PasswordRequestForm
 templates = Jinja2Templates(directory = "templates")
 
 @router.get("/login-page")
-def render_login_page(request : Request):
+async def render_login_page(request : Request):
     return templates.TemplateResponse("login.html", {"request" : request})
 
 @router.get("/register-page")
-def render_register_page(request : Request):
+async def render_register_page(request : Request):
     return templates.TemplateResponse("register.html", {"request" : request})

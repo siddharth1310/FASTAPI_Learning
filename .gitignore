@@ -209,3 +209,6 @@ __marimo__/
 
 Project4/alembic/versions/*
 !Project4/alembic/versions/.gitkeep
+
+logs/
+*.jsonl

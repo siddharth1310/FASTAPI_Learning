@@ -130,3 +130,26 @@ async def render_todo_page(request : Request, db : db_dependency):
 @router.get("/register-page")
 async def render_register_page(request : Request):
     return templates.TemplateResponse("register.html", {"request" : request})
+
+
+@router.get("/add-todo-page")
+async def render_add_todo_page(request : Request):
+    try:
+        user = await get_current_user(request.cookies.get("access_token"))
+        if user is None:
+            return redirect_to_login()
+        return templates.TemplateResponse("add-todo.html", {"request" : request, "user" : user})
+    except Exception as e:
+        return redirect_to_login()
+
+
+@router.get("/edit-todo-page/{todo_id}")
+async def render_edit_todo_page(request : Request, db : db_dependency, todo_id : int = Path(gt = 0, description = "Primary key of the entry in TODO Table.")):
+    try:
+        user = await get_current_user(request.cookies.get("access_token"))
+        if user is None:
+            return redirect_to_login()
+        todo = db.get(Todos, todo_id)
+        return templates.TemplateResponse("edit-todo.html", {"request" : request, "todo" : todo, "user" : user})
+    except Exception as e:
+        return redirect_to_login()

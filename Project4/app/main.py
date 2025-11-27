@@ -2,10 +2,10 @@
 from contextlib import asynccontextmanager
 
 # External packages
-from fastapi import FastAPI, Request
 from sqlalchemy.exc import IntegrityError
 from fastapi.staticfiles import StaticFiles
-from fastapi.templating import Jinja2Templates
+from fastapi import FastAPI, Request, status
+from fastapi.responses import RedirectResponse
 from fastapi.exceptions import RequestValidationError
 from starlette.exceptions import HTTPException as StarletteHTTPException
 
@@ -92,9 +92,8 @@ app.add_exception_handler(RequestValidationError, validation_exception_handler)
 app.add_exception_handler(Exception, generic_exception_handler)
 
 
-templates = Jinja2Templates(directory = "templates")
 app.mount("/static", StaticFiles(directory = "static"), name = "static")
 
 @app.get("/")
 async def test(request : Request):
-    return templates.TemplateResponse("home.html", {"request" : request})
+    return RedirectResponse(url = "todo/todo-page", status_code = status.HTTP_302_FOUND)

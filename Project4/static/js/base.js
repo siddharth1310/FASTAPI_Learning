@@ -16,7 +16,7 @@ if (todoForm) {
         };
 
         try {
-            const response = await fetch('/todo/todo', {
+            const response = await fetch('/todo/create_todo', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -66,7 +66,7 @@ if (editTodoForm) {
 
             console.log(`${todoId}`)
 
-            const response = await fetch(`/todo/todo/${todoId}`, {
+            const response = await fetch(`/todo/update_todo/${todoId}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',
@@ -98,7 +98,7 @@ if (editTodoForm) {
                 throw new Error('Authentication token not found');
             }
 
-            const response = await fetch(`/todo/todo/${todoId}`, {
+            const response = await fetch(`/todo/delete_todo/${todoId}`, {
                 method: 'DELETE',
                 headers: {
                     'Authorization': `Bearer ${token}`

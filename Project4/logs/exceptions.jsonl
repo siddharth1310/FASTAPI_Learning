@@ -127,3 +127,19 @@
 {"asctime": "2025-11-27 08:10:11", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Not Found"}
 {"asctime": "2025-11-27 08:11:48", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Not Found"}
 {"asctime": "2025-11-27 08:13:01", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Not Found"}
+{"asctime": "2025-11-27 20:25:39", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Not Found"}
+{"asctime": "2025-11-27 20:25:43", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Not Found"}
+{"asctime": "2025-11-27 20:26:57", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Not Found"}
+{"asctime": "2025-11-27 20:32:51", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Not Found"}
+{"asctime": "2025-11-27 20:33:09", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Not Found"}
+{"asctime": "2025-11-27 20:33:39", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Not Found"}
+{"asctime": "2025-11-27 20:34:40", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Not Found"}
+{"asctime": "2025-11-27 20:35:17", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Not Found"}
+{"asctime": "2025-11-27 20:35:28", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Not Found"}
+{"asctime": "2025-11-27 20:36:25", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Not Found"}
+{"asctime": "2025-11-27 20:36:54", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Not Found"}
+{"asctime": "2025-11-27 20:37:52", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Not Found"}
+{"asctime": "2025-11-27 20:37:56", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Not Found"}
+{"asctime": "2025-11-27 20:38:25", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Method Not Allowed"}
+{"asctime": "2025-11-27 20:41:22", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Not Found"}
+{"asctime": "2025-11-27 21:09:42", "levelname": "WARNING", "module": "exceptions", "filename": "exceptions.py", "funcName": "http_exception_handler", "lineno": 109, "message": "HTTPException : Not Found"}

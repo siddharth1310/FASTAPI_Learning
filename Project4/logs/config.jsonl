@@ -198,3 +198,256 @@
 {"asctime": "2025-11-27 08:14:42", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
 {"asctime": "2025-11-27 08:14:42", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
 {"asctime": "2025-11-27 08:14:42", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 20:25:42", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 20:25:42", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 20:25:42", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 20:25:42", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 20:25:42", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 20:25:42", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 20:27:00", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 20:27:00", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 20:27:00", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 20:27:00", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 20:27:39", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 20:27:39", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 20:27:39", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 20:27:39", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 20:27:40", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 20:27:40", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 20:27:40", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 20:27:40", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 20:27:45", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 20:27:45", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 20:27:45", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 20:27:45", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 20:27:45", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 20:27:45", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 20:27:46", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 20:27:46", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 20:34:40", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 20:34:40", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 20:34:45", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 20:34:45", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 20:34:58", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 20:34:58", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 20:34:58", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 20:34:58", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 20:34:58", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 20:34:58", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 20:35:00", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 20:35:00", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 20:36:50", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 20:36:51", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 20:36:51", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 20:36:51", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 20:36:51", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 20:36:51", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 20:36:52", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 20:36:52", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 20:37:49", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 20:37:49", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 20:37:49", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 20:37:49", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 20:37:49", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 20:37:49", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 20:37:56", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 20:37:56", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 20:41:16", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 20:41:16", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 20:41:16", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 20:41:16", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 20:41:16", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 20:41:16", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 20:41:20", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 20:41:20", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 20:41:57", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 20:41:57", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 20:41:57", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 20:41:57", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 20:42:11", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 20:42:11", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 20:42:11", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 20:42:11", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 20:42:13", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 20:42:13", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:09:33", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:09:34", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:09:34", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:09:34", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:09:34", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:09:34", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:11:48", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:11:48", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:11:48", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:11:48", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:11:48", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:11:48", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:11:49", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:11:49", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:11:49", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:11:49", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:12:27", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:12:27", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:12:27", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:12:27", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:12:27", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:12:27", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:12:27", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:12:27", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:12:30", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:12:30", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:12:30", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:12:30", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:12:32", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:12:32", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:12:32", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:12:32", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:12:32", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:12:32", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:12:32", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:12:32", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:13:13", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:13:13", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:13:13", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:13:13", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:13:15", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:13:15", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:13:15", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:13:15", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:13:15", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:13:15", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:13:15", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:13:15", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:13:23", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:13:23", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:13:38", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:13:38", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:13:38", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:13:38", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:13:50", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:13:50", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:13:50", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:13:50", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:13:53", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:13:53", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:13:53", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:13:53", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:13:58", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:13:58", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:13:58", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:13:58", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:13:58", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:13:58", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:13:58", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:13:58", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:14:02", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:14:02", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:14:02", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:14:02", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:14:09", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:14:09", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:14:09", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:14:09", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:14:09", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:14:09", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:14:09", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:14:09", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:15:36", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:15:36", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:15:36", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:15:36", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:15:48", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:15:48", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:15:48", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:15:48", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:16:49", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:16:49", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:16:49", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:16:49", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:16:51", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:16:51", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:16:51", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:16:51", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:16:51", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:16:51", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:16:51", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:16:51", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:16:54", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:16:54", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:16:54", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:16:54", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:16:54", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:16:54", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:16:54", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:16:54", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:16:54", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:16:54", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:16:54", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:16:54", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:16:56", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:16:56", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:16:56", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:16:56", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:16:57", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:16:57", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:16:57", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:16:57", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:16:58", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:16:58", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:17:10", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:17:10", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:17:10", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:17:10", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:17:12", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:17:12", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:17:12", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:17:12", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:17:12", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:17:12", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:17:12", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:17:12", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:17:15", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:17:15", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:17:15", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:17:15", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:17:17", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:17:17", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:17:17", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:17:17", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:17:17", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:17:17", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:17:17", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:17:17", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:17:18", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:17:18", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:17:18", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:17:18", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:17:19", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:17:19", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:17:19", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:17:19", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:17:19", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:17:19", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:17:19", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:17:19", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:21:17", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:21:17", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:21:17", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:21:17", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:21:19", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:21:19", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:21:19", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:21:19", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:21:20", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:21:20", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:21:20", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 97, "message": "Authenticated User \u2192 username=Wolverine1310, id=4, role=admin"}
+{"asctime": "2025-11-27 21:21:20", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:21:38", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:21:38", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:21:38", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:21:39", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:21:39", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:21:39", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
+{"asctime": "2025-11-27 21:22:34", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 43, "message": "Creating database session"}
+{"asctime": "2025-11-27 21:22:34", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_current_user", "lineno": 78, "message": "Decoding JWT token inside get_current_user()"}
+{"asctime": "2025-11-27 21:22:34", "levelname": "DEBUG", "module": "config", "filename": "config.py", "funcName": "get_db", "lineno": 48, "message": "Closing database session"}
